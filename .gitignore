@@ -1,0 +1,12 @@
+# -*- mode: gitignore; -*-
+
+# Unix
+.*
+
+
+# Git
+!.gitignore
+
+
+# Nix
+result

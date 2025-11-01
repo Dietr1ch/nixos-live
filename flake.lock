@@ -1,0 +1,102 @@
+{
+  "nodes": {
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1762704774,
+        "narHash": "sha256-iodz4xQbULkHqetbPu5BCSWsVEzZiiNSv0/dzfH4XiE=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "be4a9233dd3f6104c9b0fdd3d56f953eb519a4c7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "id": {
+      "locked": {
+        "lastModified": 1762708189,
+        "narHash": "sha256-6aHSSLUdVMxtd3u5/6edPXdRO25N0FwRpwEVOhZb8Os=",
+        "owner": "Dietr1ch",
+        "repo": "id",
+        "rev": "0d532666c487174ead137755c43cdda3b847f9aa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Dietr1ch",
+        "repo": "id",
+        "type": "github"
+      }
+    },
+    "nixos-hardware": {
+      "locked": {
+        "lastModified": 1762463231,
+        "narHash": "sha256-hv1mG5j5PTbnWbtHHomzTus77pIxsc4x8VrMjc7+/YE=",
+        "owner": "NixOS",
+        "repo": "nixos-hardware",
+        "rev": "52113c4f5cfd1e823001310e56d9c8d0699a6226",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "master",
+        "repo": "nixos-hardware",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1762596750,
+        "narHash": "sha256-rXXuz51Bq7DHBlfIjN7jO8Bu3du5TV+3DSADBX7/9YQ=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b6a8526db03f735b89dd5ff348f53f752e7ddc8e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "id": "id",
+        "nixos-hardware": "nixos-hardware",
+        "nixpkgs": "nixpkgs",
+        "systemn": "systemn"
+      }
+    },
+    "systemn": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1762702452,
+        "narHash": "sha256-eMWBPKh0xog4aiLf6CCnZpuQTGJX6ZWnTgUFEYFVjQs=",
+        "owner": "Dietr1ch",
+        "repo": "systemn",
+        "rev": "38eaa84a5018e17f961caf5c1d882df89d7c9959",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Dietr1ch",
+        "repo": "systemn",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
