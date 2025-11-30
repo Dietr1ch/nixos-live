@@ -130,6 +130,8 @@
                     zenith
                     rustscan
                     vlc
+                    meld
+                    gparted
 
                     ncdu
                     rsync
