@@ -86,6 +86,7 @@
             # Desktop
             systemn.nixosModules.desktop # ~/Projects/systemn/desktop/default.nix
             systemn.nixosModules.desktop-gaming # ~/Projects/systemn/desktop/gaming/default.nix
+            systemn.nixosModules.desktop-shell-graphical # ~/Projects/systemn/desktop/shell/graphical/default.nix
             systemn.nixosModules.desktop-shell-graphical-browser # ~/Projects/systemn/desktop/shell/graphical/browser/default.nix
             systemn.nixosModules.desktop-shell-graphical-browser-chromium # ~/Projects/systemn/desktop/shell/graphical/browser/chromium.nix
             systemn.nixosModules.desktop-shell-graphical-office # ~/Projects/systemn/desktop/shell/graphical/office.nix
@@ -126,18 +127,7 @@
                 environment = {
                   systemPackages = with pkgs; [
                     fish
-                    htop
-                    zenith
-                    rustscan
-                    vlc
-                    meld
-                    gparted
-
-                    ncdu
-                    rsync
                     util-linux
-
-                    telegram-desktop
                   ];
                 };
               }

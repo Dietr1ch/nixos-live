@@ -82,11 +82,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1764350657,
-        "narHash": "sha256-/2vL0EINA47AviP88Sxx0KVGmFDOXZ3h/CYmZMQ93d0=",
+        "lastModified": 1765039880,
+        "narHash": "sha256-ET3pr/gVZZZu7B4UzQB+NDkE6EWOTy5n82X+nwVjv3w=",
         "owner": "Dietr1ch",
         "repo": "systemn",
-        "rev": "2e1f12309ffeb9dd1de472927046f19335087adf",
+        "rev": "b15dcea68dd846bbed188233cbc70da3fa0b499f",
         "type": "github"
       },
       "original": {
