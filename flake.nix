@@ -136,6 +136,8 @@
                     ncdu
                     rsync
                     util-linux
+
+                    telegram-desktop
                   ];
                 };
               }
