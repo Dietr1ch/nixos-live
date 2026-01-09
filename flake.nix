@@ -62,8 +62,10 @@
             systemn.nixosModules.hardware-graphics # ~/Projects/systemn/hardware/graphics/default.nix
             systemn.nixosModules.hardware-keyboard-ergodox_ez # ~/Projects/systemn/hardware/keyboard/ergodox_ez.nix
             systemn.nixosModules.hardware-memtest # ~/Projects/systemn/hardware/memtest.nix
+            systemn.nixosModules.hardware-mouse-razer # ~/Projects/systemn/hardware/mouse/razer.nix
             systemn.nixosModules.hardware-phone # ~/Projects/systemn/hardware/phone.nix
             systemn.nixosModules.hardware-printing # ~/Projects/systemn/hardware/printing.nix
+            systemn.nixosModules.hardware-scanning # ~/Projects/systemn/hardware/scanning.nix
             systemn.nixosModules.hardware-storage # ~/Projects/systemn/hardware/storage.nix
             systemn.nixosModules.hardware-truerng # ~/Projects/systemn/hardware/truerng.nix
             systemn.nixosModules.hardware-usb # ~/Projects/systemn/hardware/usb.nix
@@ -84,12 +86,16 @@
             # Desktop
             systemn.nixosModules.desktop # ~/Projects/systemn/desktop/default.nix
             systemn.nixosModules.desktop-gaming # ~/Projects/systemn/desktop/gaming/default.nix
+            systemn.nixosModules.desktop-programming # ~/Projects/systemn/desktop/programming/default.nix
             systemn.nixosModules.desktop-shell-graphical # ~/Projects/systemn/desktop/shell/graphical/default.nix
             systemn.nixosModules.desktop-shell-graphical-browser # ~/Projects/systemn/desktop/shell/graphical/browser/default.nix
             systemn.nixosModules.desktop-shell-graphical-browser-chromium # ~/Projects/systemn/desktop/shell/graphical/browser/chromium.nix
+            systemn.nixosModules.desktop-shell-graphical-images # ~/Projects/systemn/desktop/shell/graphical/images.nix
             systemn.nixosModules.desktop-shell-graphical-office # ~/Projects/systemn/desktop/shell/graphical/office.nix
+            systemn.nixosModules.desktop-shell-graphical-video # ~/Projects/systemn/desktop/shell/graphical/video.nix
             systemn.nixosModules.desktop-shell-terminal # ~/Projects/systemn/desktop/shell/terminal/default.nix
             systemn.nixosModules.desktop-shell-terminal-documents # ~/Projects/systemn/desktop/shell/terminal/documents.nix
+            systemn.nixosModules.desktop-shell-terminal-pay_respects # ~/Projects/systemn/desktop/shell/terminal/pay-respects.nix
             systemn.nixosModules.desktop-sound # ~/Projects/systemn/desktop/sound.nix
 
             ./personal # ./personal/default.nix
