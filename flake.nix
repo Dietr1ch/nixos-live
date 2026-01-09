@@ -48,8 +48,6 @@
           modules = [
             nixos-hardware.nixosModules.common-pc-ssd # ~/Projects/nixos-hardware/common/pc/ssd/default.nix
 
-            ./personal # ./personal/default.nix
-
             # Id
             # ==
             id.locations-cl-valle_nevado # ~/Projects/id/locations/cl/valle_nevado.nix
@@ -93,6 +91,8 @@
             systemn.nixosModules.desktop-shell-terminal # ~/Projects/systemn/desktop/shell/terminal/default.nix
             systemn.nixosModules.desktop-shell-terminal-documents # ~/Projects/systemn/desktop/shell/terminal/documents.nix
             systemn.nixosModules.desktop-sound # ~/Projects/systemn/desktop/sound.nix
+
+            ./personal # ./personal/default.nix
 
             (
               {
