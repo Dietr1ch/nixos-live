@@ -10,3 +10,6 @@ list_drives:
 
 write TARGET: build_iso
 	sudo dd if=$(find result/ -name '*.iso') of={{TARGET}} bs=4M status=progress conv=fdatasync
+
+update_nix:
+	nix flake update
