@@ -130,6 +130,13 @@
                   };
                 };
 
+                boot = {
+                  tmp = {
+                    useTmpfs = true;
+                    tmpfsSize = "20%";
+                  }; # ..boot.tmp
+                };
+
                 # Generated with mkpasswd --method=sha-512
                 users.users.root.initialHashedPassword = lib.mkForce "$6$dyINLcIm1E3tQ5xU$nSREiDQrPVb9hK/Rncw24vxJr/gZnSMeDRe2vOGTH3yfgeHMJwr2Sq3rrA1J.O9N0dEvpFCI0F0Q5qhc1HMpF0";
                 # Enable SSH in the boot process.
