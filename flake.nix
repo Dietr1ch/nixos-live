@@ -74,6 +74,7 @@
             systemn.nixosModules.hardware-storage # ~/Projects/systemn/hardware/storage.nix
             systemn.nixosModules.hardware-truerng # ~/Projects/systemn/hardware/truerng.nix
             systemn.nixosModules.hardware-usb # ~/Projects/systemn/hardware/usb.nix
+            systemn.nixosModules.hardware-i2c # ~/Projects/systemn/hardware/i2c.nix
 
             # System
             systemn.nixosModules.system # ~/Projects/systemn/system/default.nix
@@ -96,7 +97,6 @@
             systemn.nixosModules.desktop-shell-graphical-browser # ~/Projects/systemn/desktop/shell/graphical/browser/default.nix
             systemn.nixosModules.desktop-shell-graphical-browser-chromium # ~/Projects/systemn/desktop/shell/graphical/browser/chromium.nix
             systemn.nixosModules.desktop-shell-graphical-images # ~/Projects/systemn/desktop/shell/graphical/images.nix
-            systemn.nixosModules.desktop-shell-graphical-office # ~/Projects/systemn/desktop/shell/graphical/office.nix
             systemn.nixosModules.desktop-shell-graphical-video # ~/Projects/systemn/desktop/shell/graphical/video.nix
             systemn.nixosModules.desktop-shell-terminal # ~/Projects/systemn/desktop/shell/terminal/default.nix
             systemn.nixosModules.desktop-shell-terminal-documents # ~/Projects/systemn/desktop/shell/terminal/documents.nix
