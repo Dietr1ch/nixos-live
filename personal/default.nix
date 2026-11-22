@@ -5,6 +5,7 @@
     ./dns.nix
     ./identity.nix
     ./locale.nix
+    ./mesh.nix
     ./nix.nix
     ./users.nix
   ];
